@@ -1,0 +1,12 @@
+name: 'JSON to cloud formation parameters'
+description: 'Allows you to specify a path to a json file containing '
+inputs:
+  path:
+    description: 'path to sjon file containing parameters'
+    required: true
+  outputs:
+    value:
+      description: 'string in cloud formation format'
+runs:
+  using: 'node12'
+  main: 'index.js'
