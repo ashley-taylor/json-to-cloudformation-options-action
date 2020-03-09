@@ -1,4 +1,6 @@
 const fs = require('fs');
+const core = require('@actions/core');
+
 (async () => {
     try {
         const path = core.getInput('path');
