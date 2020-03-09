@@ -10,7 +10,7 @@ const fs = require('fs');
             if(toReturn.length > 0) {
                 toReturn += ' ';
             }
-            toReturn += `${property}=${json[property]}`
+            toReturn += `"${property}=${json[property]}"`
         }
         core.setOutput("value", toReturn);
     } catch (error) {
