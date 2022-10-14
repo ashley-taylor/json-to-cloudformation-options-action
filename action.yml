@@ -11,5 +11,5 @@ inputs:
     value:
       description: 'string in cloud formation format'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
